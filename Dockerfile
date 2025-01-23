@@ -1,4 +1,4 @@
-FROM ghcr.io/hassio-addons/debian-base:7.6.2
+FROM ghcr.io/hassio-addons/debian-base:7.7.0
 
 LABEL io.hass.version="1.5" io.hass.type="addon" io.hass.arch="aarch64|amd64"
 
@@ -18,10 +18,6 @@ RUN apt-get update \
         printer-driver-brlaser \
         printer-driver-gutenprint \
         openprinting-ppds \
-        hpijs-ppds \
-        hp-ppd  \
-        hplip \
-        printer-driver-hpcups \
         printer-driver-foo2zjs \
         printer-driver-escpr \
         cups-pdf \
