@@ -1,4 +1,5 @@
-## v1.5
+## v0.9
 
-- Update Debian Base to 7.6.2
-- Add HP drivers (printer-driver-hpcups)
+- Fork
+- Update Debian Base to 7.7
+- for internal use 
